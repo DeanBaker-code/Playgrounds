@@ -1,7 +1,10 @@
 //
-for i in 1 ... 14 {
-    moveForward()
-    while isOnClosedSwitch {
-        toggleSwitch()
-    }
-}
+func turnAndCollectGem() {
+    for i in 1 ... 6 {
+        moveForward()
+        turnLeft()
+        moveForward()
+        collectGem()
+        turnRight()
+    }}
+turnAndCollectGem()
