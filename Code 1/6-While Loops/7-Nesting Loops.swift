@@ -1,11 +1,11 @@
 //
-while !isBlocked
-    while{
-        collectGem()
-        turnLeft()
+while !isBlocked/
+    while 
+        moveForward()
+        
     }
-    jump() 
+    
+    collectGem()
+    turnLeft()
+   
 }
-playgroundEpilogue()
-
-
